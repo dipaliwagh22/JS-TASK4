@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.css">
+    <script src="./login.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="error" style="display:none; color: red;"></div>
+        <form onsubmit="return Form();">
+            <label for="email">Username<span>*</span>:</label>
+            <input type="email" id="email" name="email" required="required" placeholder="Enter your username" autofocus>
+            <br>
+            <label for="password">Password<span>*</span>:</label>
+            <input type="password" id="password" name="password" required="required" placeholder="Enter password">
+            <br>
+            <button type="submit">Log In</button>
+        </form>
+        <a href="#">Forgotten password</a><br>
+        <a href="#">Create a new account</a>
+    </div>
+</body>
+</html>
